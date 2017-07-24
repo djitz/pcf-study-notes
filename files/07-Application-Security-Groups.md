@@ -43,6 +43,6 @@ Let's assume that the backing database is a MySQL instance, which by default acc
 
 - What are some reasons why security groups could be used?
 
-> Protection against typically trusted resources like employees and preventing them from doing bad things
-> Limit your exposure and only allowing access to what application should have access to
-> Force applications to really use the applications to use the appropriate APIs. In a microservie based architecture you really want to force all of the data access through the appropriate application rather than side stepping that application and accessing the data directly
+> - Protection against typically trusted resources like employees and preventing them from doing bad things
+> - Limit your exposure and only allowing access to what application should have access to
+> - Force applications to really use the applications to use the appropriate APIs. In a microservie based architecture you really want to force all of the data access through the appropriate application rather than side stepping that application and accessing the data directly
