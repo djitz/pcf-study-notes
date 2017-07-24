@@ -27,6 +27,7 @@ Let's assume that the backing database is a MySQL instance, which by default acc
 
 - What would your security group rules JSON file look like? Should the rules allow all ports over all ip addresses? Can the rules be constrained to allow only port 3306 over a specific range of ip addresses? Try to construct a security group rules file (JSON) that you'd use to create and then bind to running applications. What command would you use to define the security group? What would you name it? What command would you use to bind it?
 
+### recap questions
 
 - As a developer what cf commands can be used to investigate and understand what's going on with application security groups?
 
