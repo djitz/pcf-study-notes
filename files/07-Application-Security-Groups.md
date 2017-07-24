@@ -31,8 +31,8 @@ Let's assume that the backing database is a MySQL instance, which by default acc
 
 - As a developer what cf commands can be used to investigate and understand what's going on with application security groups?
 
-> cf security-groups
-> cf security-group APP_NAME
+> - `cf security-groups`
+> - `cf security-group APP_NAME`
 
 - Do application security groups use a white list or black list approach to firewall rules?
 
