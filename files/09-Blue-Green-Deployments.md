@@ -36,3 +36,10 @@
 
 - What other design implications does running at least two versions of the same time have on your application?
 > Changes need to be backwards compatible and non-destructive
+
+
+### pluralsight exercise questions
+
+- How would a rollback situation be handled using a blue-green deployment?
+
+- What other design implications does running at least two versions at the same time have on your applications? Do you do blue-green deployments today? How is this different?
