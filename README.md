@@ -12,11 +12,11 @@ PCF resources:
 	
 	
 Training:
-	• Pluralsight 
-		○ https://app.pluralsight.com/library/courses/cloud-foundry-developer-1dot7-pivotal/table-of-contents
-	• PCF On Site Training Resources
-		○ Labs
-		○ Student handbook
-	• PCF Certification Study Guide
+- Pluralsight 
+-- https://app.pluralsight.com/library/courses/cloud-foundry-developer-1dot7-pivotal/table-of-contents
+- PCF On Site Training Resources
+-- Labs
+-- Student handbook
+- PCF Certification Study Guide
 
 https://pivotal.io/training/certification
