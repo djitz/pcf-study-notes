@@ -14,3 +14,16 @@
 > 
 
 - Do you understand autoscaler schedules?
+
+
+### pluralsight recap
+
+- How do you handle autoscaling today? Do you autoscale?
+
+- What 12 factor principles are important when it comes to scaling?
+
+> Disposability
+
+- How do you handle scaling at the data layer?
+
+> 
