@@ -22,3 +22,21 @@
 6. CD provider pull artifact from binary repo
 7. CD provider push artifact to environment
 8. CD provider run more tests on environment
+
+
+### pluralsight recap
+
+- What are some of the continuous delivery strategies we talked about?
+
+>  - Implement continuous integration
+>  - Don't create application environment specific packages
+>  - Blue-Green deployments
+
+- Does continuous delivery means continuous deployment?
+
+> No, it's not. Continuous deployment means every commit is pushed directly into production assuming it passes its test. Continuous delivery means every change can be deployed at production at anytime.
+
+- What are some of the benefits of continuous delivery?
+
+>  - Reducing risk
+>  - Increasing feedback
