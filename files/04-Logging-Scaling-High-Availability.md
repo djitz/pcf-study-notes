@@ -23,3 +23,59 @@
 
 - What is the difference between scaling up and scaling out?
 
+### pluralsight recap
+
+
+
+- What are some fundamental changes impacting application design and delivery?
+
+>  - Distributed computing
+>  - Ephemeral infrastructure
+>  - Immutable infrastructure
+
+- What is a modern methodology for delivering cloud based applications?
+
+> Twelve-factor app
+
+- How are logs handled in a Twelve-factor app?
+
+> As event streams
+
+- True or false, Garden is an interface with many implementations.
+
+> True, there's Linux and Windows and more on the way
+
+- Which component of the Elastic runtime exposes an API for users to manage applications?
+
+> Cloud controller
+
+- What are the four levels of high availability that keep your applications running?
+
+>  - Availability zones
+>  - BOSH managed processes
+>  - Failed VMs - any VM that BOSH deploys will be recreated if you enable resurrector
+>  - Self healing application instances handled by the brain within Diego
+
+- Where should you write your application logs?
+
+>  - To Standard Out and Standard Error
+
+- What are some of the different origin codes that were seen in the log?
+
+>  - cf logs
+>  - API for cloud controller
+>  - stage for stating 
+>  - cell for running applications
+
+- What did you think about accessing the logs? How is that different from what you do today?
+
+- What is the difference between scaling out versus scaling up?
+
+> Scaling up requires down time to recreate the container
+> Scaling horizontally requires no downtime
+
+- How do you recover failed application instances today? What happens if the underlying platform fails? How do you recover from that?
+
+- How could you tell if your application has been crashing?
+
+> Look at the logs, but probably the best place to go is cf events
