@@ -28,11 +28,11 @@
 - How does a buildpack work? Are you aware of the scripts that run and how  they might be written or modified?
 
 > scripts:
-- `bin/detect`
+> - `bin/detect`
 > inspect application to see if the buildpack should be applied
-- `bin/compile` 
+> - `bin/compile` 
 > creates droplet by combining application with runtime, container, packages, libraries (downloading them if necessary, kept in cache thereafter)
-- `bin/release`
+> - `bin/release`
 > build application start command
 
 - Can you tell what buildpack was used when an application was deployed?
