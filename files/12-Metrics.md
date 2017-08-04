@@ -14,3 +14,8 @@
 - What might a spike in memory indicaate when using PCF metrics?
 
 > It might mean a resource leak in the code
+
+
+### documentation
+
+http://docs.pivotal.io/pcf-metrics/1-3/using.html
