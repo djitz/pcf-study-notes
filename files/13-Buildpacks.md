@@ -10,15 +10,15 @@
 - Can you name some buildpacks?
 
 > Official: 
-- Binary
-- Go
-- Java
-- .Net Core
-- Node.js
-- PHP
-- Python
-- Ruby
-- Staticfile
+> - Binary
+> - Go
+> - Java
+> - .Net Core
+> - Node.js
+> - PHP
+> - Python
+> - Ruby
+> - Staticfile
 
 
 - How does Cloud Foundry know which buildpacks to run?
