@@ -41,7 +41,7 @@
 > If your application uses a language or framework that the Cloud Foundry system
 
 
-Pluralsight Recap
+## Pluralsight Recap
 - So which script is responsible for building the droplet? 
 > The answer is the compile script.
 		
