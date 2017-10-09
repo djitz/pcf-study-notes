@@ -43,10 +43,16 @@
 - What is the difference between a public, private and hybrid cloud?
 
 - What infrastructure does Cloud Foundry runs on?
+> AWS 
+> VMware 
+> Openstack 
+> Azure 
+
 
 - What is BOSH? Why is it useful?
 
 - What is staging? What does it do?
+
 
 - Do you know the difference between restarting, restaging and redeploying and application? How does each of these affect the services, environment-variables available on an application?
 
