@@ -56,6 +56,12 @@
 
 - Do you know the difference between restarting, restaging and redeploying and application? How does each of these affect the services, environment-variables available on an application?
 
+> `restart` will simply stop your application and start it with the existing droplet.
+
+> `restage` will stop your application, run the application bits through the staging process to create a new droplet, and then start the new droplet. It's a lot like `push` but without actually pushing new application bits.
+
+> You typically restart when you need your applicaiton's environment refreshed and you typically restage when you need/want the buildpack to run without updating the application source.
+
 - What is meant by ephemeral? What are the design implications for an application?
 > ephemeral -> temporary
 > virtual machines and containers are temporary
