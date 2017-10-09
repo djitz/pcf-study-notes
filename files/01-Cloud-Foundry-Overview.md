@@ -105,5 +105,5 @@ Run admin/management tasks as one-off processes
 - Can you manage environment-variables manually? If so how?
 
 - Can you name two predefined environment-variables available to any application?
-  * VCAP_APPLICATION
-  * VCAP_SERVICES
+  * `VCAP_APPLICATION`
+  * `VCAP_SERVICES`
