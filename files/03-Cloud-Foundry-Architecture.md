@@ -59,37 +59,42 @@
    - Converger 
        - Reconciles desired LRPs vs Actual LRPs through auctions 
  
-Loggregator 
-Doppler 
-Gathers logs from Metron 
-Create app syslog drains 
+#### Loggregator 
+
+##### Doppler 
+- Gathers logs from Metron 
+- Create app syslog drains 
 Splunk 
 Papertrail 
-Traffic Controller 
-Handles client requests for logs 
-Exposes a web socket endpoint called the firehose 
-Firehose 
-A websocket endpoint that exposes app logs, container metrics and ER component metrics 
-Nozzles 
-Consume the firehouse output 
-E.g. Datadog Nozzle 
+
+##### Traffic Controller 
+- Handles client requests for logs 
+- Exposes a web socket endpoint called the firehose 
+
+##### Firehose 
+- A websocket endpoint that exposes app logs, container metrics and ER component metrics 
+
+##### Nozzles 
+- Consume the firehouse output 
+    - E.g. Datadog Nozzle 
  
  
-Cloud Controller API 
-Cloud Controller 
-Exposes an API for using and  managing the Elastic Runtime 
-Cloud Controller Database 
-The Cloud Controller persists Org/Space/App data in the Cloud Controller Database 
-Blob Store 
-The Cloud Controller persists app packages and droplets to the Blob Store 
-CC-Bridge 
-CC-Bridge translates app specific messages into the generic language of task and LRPs 
+#### Cloud Controller API 
+##### Cloud Controller 
+- Exposes an API for using and  managing the Elastic Runtime 
+#### Cloud Controller Database 
+- The Cloud Controller persists Org/Space/App data in the Cloud Controller Database 
+##### Blob Store 
+- The Cloud Controller persists app packages and droplets to the Blob Store 
+##### CC-Bridge 
+- CC-Bridge translates app specific messages into the generic language of task and LRPs 
  
  
-Routing 
-Router 
-Routes traffic to appropriate component 
+#### Routing 
+##### Router 
+- Routes traffic to appropriate component 
  
+
 
 - What does Diego refer to?
 > PCF container management system
