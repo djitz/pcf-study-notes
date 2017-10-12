@@ -1,6 +1,8 @@
 ## Cloud Foundry Architecture
 
 - Can you name the main components running inside Cloud Foundry? Do you know what each of them does?
+![CF Architecture Diagram](https://github.com/djitz/pcf-study-notes/raw/master/images/cf_architecture_block.png)
+
 
 - What does Diego refer to?
 > PCF container management system
