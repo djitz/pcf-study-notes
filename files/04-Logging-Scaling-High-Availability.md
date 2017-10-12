@@ -1,6 +1,7 @@
 ## Logging, Scaling, and High Availability
 
 - How do you access application logs?
+> cf logs APP_NAME
 
 - What are the components of the Loggregator system?
 
@@ -22,6 +23,8 @@
 > 4. CF Converger detects if an application instance has failed and restarts it
 
 - What is the difference between scaling up and scaling out?
+> - scale up (vertically) increases the disk space limit or memory limit of all instances of an application. It requires downtime as the container is recreated.
+> - scale out (horizontally) increases the number of instances of an application by creating or destroying them. It requires no downtime.
 
 ### pluralsight recap
 
