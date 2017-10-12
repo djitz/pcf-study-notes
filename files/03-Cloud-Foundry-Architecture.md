@@ -96,7 +96,7 @@ Papertrail
  
 
 
-- What does Diego refer to?
+What does Diego refer to?
 > PCF container management system
 
 - What is Garden?
