@@ -1,20 +1,25 @@
 ## Managed and User-Provided Services
 
 - What is a service? Can you name some examples?
+> service is a resource reserved on demand 
+> examples: database on a shared or dedicated server, access to a SaaS application
 
 - What is the "marketplace"? Does it show all services?
 
 - What is the difference between a managed and user-provided service?
+
 
 - How would you create a managed service?
 
 - How would you use a managed service?
 
 - How would you create a user-provided service?
+> `cf cups SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL]`
 
 - How would you use a user-provided service?
 
 - What is `VCAPS_SERVICES`? Why is it important?
+> it is an environment variable containing connection details of bindable services that Cloud Foundry added after binding the services instance to the application.
 
 - How do services interact with spaces?
 
