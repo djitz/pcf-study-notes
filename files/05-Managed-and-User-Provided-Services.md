@@ -7,11 +7,13 @@
 - What is the "marketplace"? Does it show all services?
 
 - What is the difference between a managed and user-provided service?
-
+>  Managed service is a service that is available in marketplace. User-provided service instances enable developers to use services that are not available in the marketplace with their applications running on Cloud Foundry.
 
 - How would you create a managed service?
+> `cf create-service SERVICE PLAN SERVICE_INSTANCE`
 
 - How would you use a managed service?
+> `cf bind-service APP_NAME SERVICE_INSTANCE [-c PARAMETERS_AS_JSON]`
 
 - How would you create a user-provided service?
 > `cf cups SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL]`
