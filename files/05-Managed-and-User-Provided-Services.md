@@ -17,6 +17,7 @@
 > `cf cups SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL]`
 
 - How would you use a user-provided service?
+> `cf bind-service APP_NAME SERVICE_INSTANCE [-c PARAMETERS_AS_JSON]`
 
 - What is `VCAPS_SERVICES`? Why is it important?
 > it is an environment variable containing connection details of bindable services that Cloud Foundry added after binding the services instance to the application.
