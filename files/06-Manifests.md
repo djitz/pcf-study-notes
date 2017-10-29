@@ -3,14 +3,14 @@
 - What is a manifest? What type of file is it? What is its purpose?
 
 > - describes the application deployment options
-- YAML file
-- automates subsequent deployments
-- same options as `cf push` command
+> - YAML file
+> - automates subsequent deployments
+> - same options as `cf push` command
 
 - How do you create a manifest?
 
 > - using text editor, or
-- `cf create-app-manifest APP_NAME`
+> - `cf create-app-manifest APP_NAME`
 
 - If I specify a command in a manifest and on the command line what happens?
 
