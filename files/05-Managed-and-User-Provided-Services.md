@@ -25,6 +25,7 @@
 > it is an environment variable containing connection details of bindable services that Cloud Foundry added after binding the services instance to the application.
 
 - How do services interact with spaces?
+> Every application and service is scoped to a space. Use service keys when you want a set of credentials for use by clients other than the application in the same space. Not all services support service keys. Some services support credentials through application binding only.
 
 
 ### pluralsight recap
