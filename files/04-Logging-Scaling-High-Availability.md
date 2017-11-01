@@ -12,6 +12,8 @@
 > 5. Nozzles - consume the firehose output
 
 - How do you scale an application manually?
+> cf scale <APP_NAME> -m <Size> -i <Instance_COUNT>
+
 
 - What are the four levels of high-availability provided by PCF?
 
