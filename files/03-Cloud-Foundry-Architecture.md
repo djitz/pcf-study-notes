@@ -82,7 +82,7 @@ Papertrail
 #### Cloud Controller API 
 ##### Cloud Controller 
 - Exposes an API for using and  managing the Elastic Runtime 
-#### Cloud Controller Database 
+#### Cloud Controller Database (CC_DB)
 - The Cloud Controller persists Org/Space/App data in the Cloud Controller Database 
 ##### Blob Store 
 - The Cloud Controller persists app packages and droplets to the Blob Store 
@@ -127,3 +127,4 @@ What does Diego refer to?
 > - Blobstore
 >    - Store app packages, buildpacks, droplets
 > - Database (CC_DB)
+>    - The Cloud Controller persists Org/Space/App data in the Cloud Controller Database
