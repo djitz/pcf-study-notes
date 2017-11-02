@@ -1,13 +1,21 @@
 ## Application Security Groups
 
 - What is an application security group (ASG)? What does it do?
+> An application security group is a virtual firewall that control outbound traffic for applications. It will allow/disallow what the app can access.
+
 
 - How do you define one?
+> `cf create-security-group <SECURITY_GROUP_NAME> <ASG.json>` ASG.json is the security group rules file.
+
 
 - What can an ASG apply to?
+> An ASG(Application Security group) can be applied to all the applications and ASG will be applied to running applications when they are restarted.
+
 
 - What is the difference between white and black listing? Which do you use when defining an ASG?
-
+> White listing - limiting the application to limit the exposure of specific data.
+> Black listing - limiting the application to limit the application access to internet etc.,
+> White listing is used when defining ASG.
 
 ---
 ## pluralsight questions
