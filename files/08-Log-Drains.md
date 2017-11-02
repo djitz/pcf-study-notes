@@ -2,9 +2,14 @@
 
 - What is a log drain?
 
+> Inorder to persist more than limited amount of logging information that cloud foundry can buffer, logs can be collected into an external Log Management Service.
+
 - How do you create one?
 
+> External Log Management Services are readily available in the marketplace. `$ cf create-service SERVICE PLAN SERVICE-INSTANCE` & `$ cf bind-service YOUR-APP YOUR-LOG-STORE`
+
 - Why would you use it?
+> Logs are important to analyze the health & performance of an application. Constant monitoring is required on the application when it is in production. Inorder to address this, we should persist the logs.
 
 - What is "Syslog"?
 
