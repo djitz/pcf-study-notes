@@ -21,3 +21,5 @@ Study notes for Pivotal Cloud Foundry (PCF) certification exam.
   - Student handbook
 - PCF Certification Study Guide   
   - https://pivotal.io/training/certification
+- PCF Glossary
+  - https://docs.pivotal.io/pivotalcf/1-12/concepts/glossary.html
