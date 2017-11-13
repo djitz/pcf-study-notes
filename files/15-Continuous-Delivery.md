@@ -15,13 +15,13 @@
 - Can you outline the basic workflow behind Continuous Delivery?
 
 > 1. Dev push to repo
-2. CD provider poll for changes
-3. CD provider run build and tests
-4. CD provider start feedback loop to actor
-5. CD provider push artifact to binary repo
-6. CD provider pull artifact from binary repo
-7. CD provider push artifact to environment
-8. CD provider run more tests on environment
+> 2. CD provider poll for changes
+> 3. CD provider run build and tests
+> 4. CD provider start feedback loop to actor
+> 5. CD provider push artifact to binary repo
+> 6. CD provider pull artifact from binary repo
+> 7. CD provider push artifact to environment
+> 8. CD provider run more tests on environment
 
 
 ### pluralsight recap
