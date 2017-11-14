@@ -7,12 +7,11 @@
 > Provide transformation or processing to requests before/after they reach an application
 
 > Examples:
-- Authentication
-- Rate limiting
-- Logging 
-- Caching
-- Transformation 
-
+> - Authentication
+> - Rate limiting
+> - Logging 
+> - Caching
+> - Transformation 
 
 - How would you create a route service?
 
