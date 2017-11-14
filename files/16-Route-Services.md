@@ -23,5 +23,5 @@
 > Headers 
 
 > - X-CF-Proxy-Signature
-- X-CF-Proxy-Metadata
-Used by the Router to validate the request and pass through to the application
+> - X-CF-Proxy-Metadata
+> Used by the Router to validate the request and pass through to the application
