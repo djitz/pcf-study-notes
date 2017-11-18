@@ -112,6 +112,8 @@ Run admin/management tasks as one-off processes
 - Why does Cloud Foundry rely on environment-variables?
 
 - Can you manage environment-variables manually? If so how?
+* `cf set-env my-app my-variable_name my-variable_value`
+* `cf unset-env my-app my-variable_name my-variable_value`
 
 - Can you name two predefined environment-variables available to any application?
   * `VCAP_APPLICATION`
