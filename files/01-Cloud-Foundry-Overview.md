@@ -110,6 +110,7 @@ Treat logs as event streams
 Run admin/management tasks as one-off processes
 
 - Why does Cloud Foundry rely on environment-variables?
+> Environment variables are the means by which the Cloud Foundry runtime communicates with a deployed application about its environment.
 
 - Can you manage environment-variables manually? If so how?
   * `cf set-env my-app my-variable_name my-variable_value`
