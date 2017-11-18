@@ -50,9 +50,12 @@
 
 
 - What is BOSH? Why is it useful?
+> BOSH can provision and deploy software over hundreds of VMs. It also performs monitoring, failure recovery, and software updates with zero-to-minimal downtime.
 
 - What is staging? What does it do?
-
+> 1. Uploads application packages to staging droplet.
+> 2. Applies Buildpack
+> 3. Builds the application and make it ready to be run.
 
 - Do you know the difference between restarting, restaging and redeploying and application? How does each of these affect the services, environment-variables available on an application?
 
