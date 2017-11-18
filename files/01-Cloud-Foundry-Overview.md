@@ -113,9 +113,9 @@ Run admin/management tasks as one-off processes
 > Environment variables are the means by which the Cloud Foundry runtime communicates with a deployed application about its environment.
 
 - Can you manage environment-variables manually? If so how?
-> Yes, environment variables can be managed manually!
-  * `cf set-env my-app my-variable_name my-variable_value`
-  * `cf unset-env my-app my-variable_name my-variable_value`
+  > Yes, environment variables can be managed manually!
+    * `cf set-env my-app my-variable_name my-variable_value`
+    * `cf unset-env my-app my-variable_name my-variable_value`
 
 - Can you name two predefined environment-variables available to any application?
   * `VCAP_APPLICATION`
