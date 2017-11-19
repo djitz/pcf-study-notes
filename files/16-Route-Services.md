@@ -20,6 +20,7 @@
   > `cf bind-route-service [domain-name] [route-service-name] --hostname [target-hostname]`
 
 - How does a route service work?
+  > Binding a service instance to a route associates the `route_service_url` with the route in the Cloud Foundry router. All requests for the route are proxied to the URL specified by `route_service_url`
 - How does a route service know where to send a request once it has performed its function?
 
   > With the Headers
