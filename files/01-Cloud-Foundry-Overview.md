@@ -50,9 +50,12 @@
 
 
 - What is BOSH? Why is it useful?
+> BOSH can provision and deploy software over hundreds of VMs. It also performs monitoring, failure recovery, and software updates with zero-to-minimal downtime.
 
 - What is staging? What does it do?
-
+> 1. Uploads application packages to staging droplet.
+> 2. Applies Buildpack
+> 3. Builds the application and make it ready to be run.
 
 - Do you know the difference between restarting, restaging and redeploying and application? How does each of these affect the services, environment-variables available on an application?
 
@@ -107,8 +110,12 @@ Treat logs as event streams
 Run admin/management tasks as one-off processes
 
 - Why does Cloud Foundry rely on environment-variables?
+> Environment variables are the means by which the Cloud Foundry runtime communicates with a deployed application about its environment.
 
 - Can you manage environment-variables manually? If so how?
+  > Yes, environment variables can be managed manually!
+    * `cf set-env my-app my-variable_name my-variable_value`
+    * `cf unset-env my-app my-variable_name my-variable_value`
 
 - Can you name two predefined environment-variables available to any application?
   * `VCAP_APPLICATION`
