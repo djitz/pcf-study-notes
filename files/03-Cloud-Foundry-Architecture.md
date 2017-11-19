@@ -110,7 +110,9 @@ What does Diego refer to?
 > - Route-emitter
 
 - What is the System domain? And the application domain?
-
+  * The system domain is the domain used for things like the API, Apps Manager and other system provided services.
+  * The apps domain is the default domain that will be setup for developers to use when pushing applications to the environment.
+  
 - What is Cloud Foundry's API endpoint for?
 > - it provides access to the system
 > - for managing spaces and orgs
