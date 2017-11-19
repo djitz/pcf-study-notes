@@ -17,7 +17,7 @@
 - In general terms, how would you write your own service broker? How would you test it? How would you deploy it for everyone else to use?
   > * Create a service broker.
   > * Register the service broker.
-  > * Make the plans available in the catalog.
+  > * Make the plans publicly available in the catalog.
 
 
 ### pluralsight recap
