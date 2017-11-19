@@ -22,8 +22,8 @@
 - How does a route service work?
 - How does a route service know where to send a request once it has performed its function?
 
-> With the Headers
-  * X-CF-Forwarded-URL
-  * X-CF-Proxy-Signature
-  * X-CF-Proxy-Metadata
-  - Used by the Router to validate the request and pass through to the application or reject it.
+  > With the Headers
+    * X-CF-Forwarded-URL
+    * X-CF-Proxy-Signature
+    * X-CF-Proxy-Metadata
+    - Used by the Router to validate the request and pass through to the application or reject it.
