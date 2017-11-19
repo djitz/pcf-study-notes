@@ -16,7 +16,8 @@
 
 
 - How would you create a route service?
-
+  > `cf create-user-provided-service SERVICE-INSTANCE -r ROUTE-SERVICE-URL`
+  
   > `cf bind-route-service [domain-name] [route-service-name] --hostname [target-hostname]`
 
 - How does a route service work?
