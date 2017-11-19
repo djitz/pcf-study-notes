@@ -6,7 +6,11 @@
 
 - What is the "marketplace"? Does it show all services?
   > A marketplace is a listing of all service brokers and their corresponding catalogs which can be used by the apps deployed into cloud foundry by creating respective service instances.
+  
+  
   > All market place services can be seen using: `cf marketplace`
+  
+  
   > All services ( Managed & User-Provided) inside a particular space can be seen using: `cf services`
 
 - What is the difference between a managed and user-provided service?
