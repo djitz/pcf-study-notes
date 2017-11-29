@@ -6,13 +6,13 @@
 > **organizations** - an org is a development account that an individual or multiple collaborators can own and use. All collaborators access an org with user accounts. Collaborators in an org share a resource quota plan, applications, services availability, and custom domains.
 
 > **routes** - define how to get to an application
--- a unique route exists to each application in every space
--- domain can be mapped to multiple spaces
--- route can only be mapped to one space
--- same application can be deployed in multiple spaces
--- each must have a different, unique URL
--- development space route: http://myapp-test.cfapps.io
--- production space route: http://myapp.cfapps.io
+> - a unique route exists to each application in every space
+> - domain can be mapped to multiple spaces
+> - route can only be mapped to one space
+> - same application can be deployed in multiple spaces
+> - each must have a different, unique URL
+> - development space route: http://myapp-test.cfapps.io
+> - production space route: http://myapp.cfapps.io
 
 > **services** - any type of add-on that can be provisioned along side your apps
 -- database, messaging, mail, third-party SaaS provider
