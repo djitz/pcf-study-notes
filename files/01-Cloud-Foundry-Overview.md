@@ -15,19 +15,19 @@
 > - production space route: http://myapp.cfapps.io
 
 > **services** - any type of add-on that can be provisioned along side your apps
--- database, messaging, mail, third-party SaaS provider
--- services are usually bound to 1 or more applications
--- connection info and credentials are put in an environment variable: `VCAP_SERVICES`
+> - database, messaging, mail, third-party SaaS provider
+> - services are usually bound to 1 or more applications
+> - connection info and credentials are put in an environment variable: `VCAP_SERVICES`
 
 > **domains** - define routes to apps
 
 > **users** - a user account represents an individual person within the context of a PCF application. A user can have different roles in different spaces within an org, governing what level and type of access they have within that space.
 
 > **quotas** - restrict resources for orgs and spaces
--- total memory
--- total number of routes
--- max application instance size
--- total number of services
+> - total memory
+> - total number of routes
+> - max application instance size
+> - total number of services
 
 - How do you login to Cloud Foundry?
 > `cf login [-a API_URL] [-u USERNAME]`
