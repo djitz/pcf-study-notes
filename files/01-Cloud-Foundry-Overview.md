@@ -73,41 +73,29 @@
 
 - What are the 12 Factor Design patterns? Could you list each one from memory?
 
-> 1. Processes
-Execute the app as one or more stateless processes
+> 1. **Processes** - Execute the app as one or more stateless processes
 
-> 2. Concurrency
-Scale out via the process model
+> 2. **Concurrency** - Scale out via the process model
 
-> 3. Disposability
-Maximize robustness with fast startup and graceful shutdown
+> 3. **Disposability** - Maximize robustness with fast startup and graceful shutdown
 
-> 4. Logs 
-Treat logs as event streams
+> 4. **Logs** - Treat logs as event streams
 
-> 5. Build, release, run
-Strictly separate build and run stages
+> 5. **Build, release, run** - Strictly separate build and run stages
 
-> 6. Processes
-Execute the app as one or more stateless processes
+> 6. **Processes** - Execute the app as one or more stateless processes
 
-> 7. Port binding
-Export services via port binding
+> 7. **Port binding** - Export services via port binding
 
-> 8. Concurrency
-Scale out via the process model
+> 8. **Concurrency** - Scale out via the process model
 
-> 9. Disposability
-Maximize robustness with fast startup and graceful shutdown
+> 9. **Disposability** - Maximize robustness with fast startup and graceful shutdown
 
-> 10. Dev/prod parity
-Keep development, staging, and production as similar as possible
+> 10. **Dev/prod parity** - Keep development, staging, and production as similar as possible
 
-> 11. Logs
-Treat logs as event streams
+> 11. **Logs** - Treat logs as event streams
 
-> 12. Admin processes
-Run admin/management tasks as one-off processes
+> 12. **Admin processes** - Run admin/management tasks as one-off processes
 
 - Why does Cloud Foundry rely on environment-variables?
 > Environment variables are the means by which the Cloud Foundry runtime communicates with a deployed application about its environment.
