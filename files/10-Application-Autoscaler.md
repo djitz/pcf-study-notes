@@ -3,15 +3,14 @@
 ### PCF Study Guide Review Questions
 
 - What is the autoscaler?
-
-> - allow applications to be automatically scaled
-> - system load can be used as a trigger in place of manual interaction
+> - App Autoscaler is a marketplace service that ensures app performance and helps control the cost of running apps.
+> - It allows applications to be automatically scaled
+> - System load can be used as a trigger in place of manual interaction
 
 - How would you use it?
 > service
 
 - What can you configure?
-
 > configure the minimum no.of instances and max no. of instances
 
 - Do you understand autoscaler schedules?
