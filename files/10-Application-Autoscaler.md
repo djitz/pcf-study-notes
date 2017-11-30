@@ -1,9 +1,11 @@
 ## Application Autoscaler
 
+### PCF Study Guide Review Questions
+
 - What is the autoscaler?
 
 > - allow applications to be automatically scaled
-- system load can be used as a trigger in place of manual interaction
+> - system load can be used as a trigger in place of manual interaction
 
 - How would you use it?
 > service
@@ -15,7 +17,7 @@
 - Do you understand autoscaler schedules?
 > When there is an expected increase/decrease of traffic for the application during specific times of a day or on a particular day, it can be configured with `Scheduled Limit Changes`. For example: increasing the number of instances for Black Friday, decreasing the number of instances during off-business hours etc.,
 
-### pluralsight recap
+### Pluralsight recap
 
 - How do you handle autoscaling today? Do you autoscale?
 
@@ -26,3 +28,7 @@
 - How do you handle scaling at the data layer?
 
 > 
+
+### Reference
+
+https://docs.pivotal.io/pivotalcf/1-12/appsman-services/autoscaler/using-autoscaler.html
