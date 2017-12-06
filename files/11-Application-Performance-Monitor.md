@@ -3,7 +3,7 @@
 - What is performance monitoring? How is it implemented for Cloud Foundry applications?
 
 > - real-time monitoring of applications
-- marketplace service
+> - marketplace service
 
 - Why is a buildpack involved?
 
