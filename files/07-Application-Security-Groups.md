@@ -50,7 +50,7 @@ Let's assume that the backing database is a MySQL instance, which by default acc
 
 - What is the relationship between running security groups and space security groups?
 
-> It's a union of both of those put together. So if you've allowed any outbound connection from either running security group or space security group your application won't be able to take advantage of that.
+> It's a union of both of those put together. So if you've allowed any outbound connection from either running security group or space security group your application will be able to take advantage of that.
 
 - What are some reasons why security groups could be used?
 
