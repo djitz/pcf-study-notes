@@ -34,7 +34,7 @@
 
 > Upgrade support
 
-- The borker is required by the cloud controller to respond within how many seconds?
+- The broker is required by the cloud controller to respond within how many seconds?
 
 > 60 seconds
 
