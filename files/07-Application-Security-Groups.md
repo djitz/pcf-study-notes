@@ -13,9 +13,9 @@
 
 
 - What is the difference between white and black listing? Which do you use when defining an ASG?
-  > White listing - limiting the application to limit the exposure of specific data.
+  > White listing - by default no connections are allowed.  The application can connect to anything on the whitelist.
   
-  > Black listing - limiting the application to limit the application access to internet etc.,
+  > Black listing - by default all connections are allowed.  The application cannot connect to anything on the blacklist.
   
   > White listing is used when defining ASG.
 
