@@ -83,17 +83,17 @@
 
 > 5. **Build, release, run** - Strictly separate build and run stages
 
-> 6. **Processes** - Execute the app as one or more stateless processes
+> 6. **Codebase** - One codebase tracked in revision control, many deploys
 
 > 7. **Port binding** - Export services via port binding
 
-> 8. **Concurrency** - Scale out via the process model
+> 8. **Backing services** - Treat backing services as attached resources
 
-> 9. **Disposability** - Maximize robustness with fast startup and graceful shutdown
+> 9. **Dependencies** - Explicitly declare and isolate dependencies
 
 > 10. **Dev/prod parity** - Keep development, staging, and production as similar as possible
 
-> 11. **Logs** - Treat logs as event streams
+> 11. **Config** - Store config in the environment
 
 > 12. **Admin processes** - Run admin/management tasks as one-off processes
 
